@@ -5,6 +5,16 @@
         static void Main(string[] args)
         {
 
+            /*
+             Degisken isim verme kurallari
+            1-kullanmadığınız değişkenleri tanımlamayın
+            2-değer aralağına göre değişken tipi seçmeye özen gösteriniz
+            3-değişken isimleri iki kelimeden oluşturmayın.
+            eğer olusacak ise _ ile birbirinden ayirin.
+            4-değişken isimleri asla sayi ile başlamaz.
+            Ancak sayi bitebilir. İçinden sayi geçebilirç
+            */
+              
             Console.WriteLine(byte.MaxValue);
             Console.WriteLine(byte.MinValue);
             //short -32,768 to 32,767
@@ -47,6 +57,29 @@
                 "277 lira ceza uygulandı. Yalova Belediyesi Zabıta Müdürlüğü yetkilileri, kentte ilk kez "+
                 "üzerinden 12 bin lira gibi yüklü miktar çıkan dilenci ile karşılaştıklarını belirtip, herkesin"+
                 "duygu sömürüsüne karşı dikkatli olması gerektiğini söyledi.";
+            //Escape Karakterler
+            // \n => yeni satir
+            // \t => tab yerine gecer
+            // \b backspace 
+            // \f form feed
+            // \r Carriage return 
+            string s1 = "A string is more";
+            string s2= "than the sum of its chars";
+            s1 += s2;
+            Console.WriteLine(s1);
+            string columns = "Column 1\tColumn 2\tColumn 3";
+
+            Console.WriteLine(columns);
+            string rows = "row \r\nRow 2\r\nRow 3";
+            Console.WriteLine(rows);
+            /* output:
+                 row 1
+                 row 2
+                 row 3
+             */
+
+            string veri = $"bugunun tarihi {DateTime.Now.ToString()}";
+
 
 
             //DateTime veri tipi
