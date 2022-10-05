@@ -26,8 +26,6 @@
             Console.WriteLine("ulong Max:" + ulong.MaxValue);
             Console.WriteLine("ulong Min:" + ulong.MinValue);
 
-
-
             //floating-point numeric  types
             //float
             Console.WriteLine("float Max:" + float.MaxValue);
@@ -36,7 +34,32 @@
             //double 5.0 x10-28 to 7.228 x 1028
             Console.WriteLine("decimal max:" + decimal.MaxValue);
             Console.WriteLine("decimal min:" + decimal.MinValue);
+            //bool veri tipi:Default degeri false'dir
+            bool cevap;
+            //char veri tipi tek bir karakter tutmaya 
+            char ch = 'a';
+            Console.WriteLine(ch);
+            //string veri tipi
+            string str = "Son dakika haberi! Rusya Devlet Başkanı Vladimir Putin" +
+                "vladimir putin'in Ukrayna'nın zaporijya nükleer" +
+                "ladimir putin'in Ukrayna'nın zaporijya nükleer";
+             string haber= @"Tutanakla paraya el koyulurken, dilenen S.G.'ye 'Kabahatler Kanunu' gereğince"+
+                "277 lira ceza uygulandı. Yalova Belediyesi Zabıta Müdürlüğü yetkilileri, kentte ilk kez "+
+                "üzerinden 12 bin lira gibi yüklü miktar çıkan dilenci ile karşılaştıklarını belirtip, herkesin"+
+                "duygu sömürüsüne karşı dikkatli olması gerektiğini söyledi.";
 
+
+            //DateTime veri tipi
+            Console.WriteLine(DateTime.Now.ToString());
+            Console.WriteLine(DateTime.UtcNow);
+            Console.WriteLine(DateTime.Today);
+            Console.WriteLine(DateTime.Now.ToShortTimeString());
+            Console.WriteLine(DateTime.Now.ToLongTimeString());
+            Console.WriteLine(DateTime.Now.DayOfYear);
+            Console.WriteLine(DateTime.Now.DayOfWeek);
+            Console.WriteLine("Day Of Week:" + DateTime.Now.DayOfWeek);
+            Console.WriteLine("Day of year:" + DateTime.Now.DayOfYear);
+            Console.WriteLine("TimeOfDay:" + DateTime.Now.TimeOfDay);
         }
     }
 }
