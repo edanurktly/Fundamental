@@ -90,10 +90,8 @@ namespace ReadDataLab
             Console.WriteLine($"sonuc:{sonuc}");
             #endregion
 
-            float sayi1 = 12.5f;
-            decimal sayi2 = 12.5m;
              
-            var a=
+           
         }
 
     }
