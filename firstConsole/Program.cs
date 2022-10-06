@@ -52,7 +52,7 @@
             //string veri tipi
             string str = "Son dakika haberi! Rusya Devlet Başkanı Vladimir Putin" +
                 "vladimir putin'in Ukrayna'nın zaporijya nükleer" +
-                "ladimir putin'in Ukrayna'nın zaporijya nükleer";
+                "Vladimir putin'in Ukrayna'nın zaporijya nükleer";
              string haber= @"Tutanakla paraya el koyulurken, dilenen S.G.'ye 'Kabahatler Kanunu' gereğince"+
                 "277 lira ceza uygulandı. Yalova Belediyesi Zabıta Müdürlüğü yetkilileri, kentte ilk kez "+
                 "üzerinden 12 bin lira gibi yüklü miktar çıkan dilenci ile karşılaştıklarını belirtip, herkesin"+
