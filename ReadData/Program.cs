@@ -10,6 +10,7 @@ namespace ReadData
     {
         static void Main(string[] args)
         {
+            // Komut satırından bilgi girişi
             string sonuc = "";
             int toplam=0, a=0, b=0;
             for(int i=0;i<args.Length;i++)

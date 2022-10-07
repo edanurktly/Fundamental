@@ -36,7 +36,7 @@ namespace ReadDataaa2
 
 
 
-            ////Ekranda göstermek için 1.yol
+            //Ekranda göstermek için 1.yol
             //Console.WriteLine("Girilen sayilar {0} VE {1}", sayi1, sayi2);
             ////ekranda göstermke için 2. yol
             //Console.WriteLine($"girilen sayilar {sayi1} ve {sayi2}");
@@ -44,6 +44,15 @@ namespace ReadDataaa2
             //Console.WriteLine("girilen sayilar" + sayi1 + " ve " + sayi2);
 
             //Console.WriteLine("girilen tarih:" +trh);
+
+            double myDouble = 9.78;
+            int myInt = (int)myDouble; // Manual casting:double to int
+
+            Console.WriteLine(myDouble); //Outputs 9.78
+            Console.WriteLine(myInt); //OutPuts 9
+            float myFloat = Convert.ToSingle(myDouble); // float cevirim icin ToSingle() metodu kullanılır.
+            myFloat = (float)myDouble;
+            byte myByte = (byte)myDouble;
             #endregion
 
 
