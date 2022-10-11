@@ -13,7 +13,7 @@
             // Asagidaki while dongusu çalişmaz
             while (false)
             {
-                Console.WriteLine("Helleo World");
+                Console.WriteLine("Hello World");
             }
 
             #region Tek sayi girilence sonlanan döngü
@@ -28,7 +28,7 @@
             #endregion
 
             #region Sayinin basamaklarini bulan dongu
-            //Console.WriteLine("En az iki basamkli bir sayi giriniz:");
+            //Console.WriteLine("En az iki basamakli bir sayi giriniz:");
             //int girilen = int.Parse(Console.ReadLine());
             //int basamak = 0;
 
