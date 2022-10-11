@@ -123,6 +123,19 @@
             }
             Console.WriteLine($"Girilen {sayi} nin faktoryeli {sonuc} dir");
             #endregion
+
+            #region 11.10.2022 Dizi Boyutunu Değiştirme
+
+            int[] sayilar = new int[50];
+            int[] sayilar2 = new int[70];
+            for(int i=0; i<sayilar.Length;i++)
+            {
+                sayilar2[i] =sayilar [i];
+            }
+            //dizi boyutunu 70 yapmak için
+
+
+            #endregion
         }
     }
 }
