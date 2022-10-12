@@ -103,12 +103,15 @@ namespace Metodlar
             {
                 sonuc *= sayi1;
             }
-            return sayi2;
+            return sonuc ;
 
         }
 
-        // kontrol lu sayi alan metod
+        
         //katsayilari verilen ikinci derece denklemin kodlarını yazdıran metod
+         //bkare-4ac (formülü)
+
+
         //login metodu  geriye bool deger donecek. username ve password alacak
         //username: admin password:123
 
