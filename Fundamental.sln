@@ -33,13 +33,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metodlar", "Metodlar\Metodl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metod_OutRef", "Metod_OutRef\Metod_OutRef.csproj", "{166AA0AC-291A-4F70-AB9E-935999E630B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Const", "const\Const.csproj", "{B666B323-CE88-40ED-B13C-507B7E1C81DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Const", "const\Const.csproj", "{B666B323-CE88-40ED-B13C-507B7E1C81DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutuphane", "Kutuphane\Kutuphane.csproj", "{3B54D9FB-506E-4BA8-B120-C97354975F21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kutuphane", "Kutuphane\Kutuphane.csproj", "{3B54D9FB-506E-4BA8-B120-C97354975F21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget_Ornegi", "Nuget_Ornegi\Nuget_Ornegi.csproj", "{473656BC-D363-4B85-A5E5-C0FCC048B8E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nuget_Ornegi", "Nuget_Ornegi\Nuget_Ornegi.csproj", "{473656BC-D363-4B85-A5E5-C0FCC048B8E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HazirMetodlar", "HazirMetodlar\HazirMetodlar.csproj", "{30DE77FA-25CD-429B-A5ED-1B8A54E976BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HazirMetodlar", "HazirMetodlar\HazirMetodlar.csproj", "{30DE77FA-25CD-429B-A5ED-1B8A54E976BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HazirMetodlar_lab", "HazirMetodlar_lab\HazirMetodlar_lab.csproj", "{A115C18D-F63C-4CAB-9CB9-353218C58B68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{30DE77FA-25CD-429B-A5ED-1B8A54E976BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30DE77FA-25CD-429B-A5ED-1B8A54E976BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30DE77FA-25CD-429B-A5ED-1B8A54E976BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A115C18D-F63C-4CAB-9CB9-353218C58B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A115C18D-F63C-4CAB-9CB9-353218C58B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A115C18D-F63C-4CAB-9CB9-353218C58B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A115C18D-F63C-4CAB-9CB9-353218C58B68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
