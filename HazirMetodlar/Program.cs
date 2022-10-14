@@ -108,6 +108,28 @@
 
             //Bulunduğunuz ani veren metod 0. meridyenin zamanın verir
             Console.WriteLine(DateTime.UtcNow);
+
+            // artik yil kontrolu 
+            Console.WriteLine(DateTime.IsLeapYear(2000));
+
+            //haftanın günü 
+            Console.WriteLine(DateTime.Now.DayOfWeek);
+
+            //yilin kaçıncı günü
+            Console.WriteLine(DateTime.Now.DayOfYear);
+
+            //yeni bir tarih oluşturmak için
+            DateTime yeniTarih = new DateTime(2000, 1, 1);
+            Console.WriteLine(yeniTarih);
+
+            //iki tarih arasındaki zaman 04.04.2000
+
+            DateTime dogumGunu = new DateTime(2000, 4, 4);
+
+            TimeSpan timeSpan=DateTime.Now - dogumGunu;
+            Console.WriteLine($"Ertuğrul { timeSpan.Days} gundur hayatta {timeSpan.Hours} saat{timeSpan.TotalSeconds}saniyedir.");
+
+
             #endregion
         }
     }
