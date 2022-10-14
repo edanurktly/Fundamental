@@ -19,7 +19,28 @@ namespace Metodlar
          */
         static void Main(string[] args)
         {
+            //bu normal faktoryel
+             long Faktoryel(int sayi)
+            {
+                long sonuc = 1;
+                for(int i=1; i<=sayi; i++)
+                {
+                    sonuc = sonuc * i;
+                }
+                return sonuc;
+            }
+            //kendi kendisini çağıran metodlara recursive metodlar denir.
 
+            long FaktoryelRecursive(int sayi)
+            {
+                if (sayi == 0)
+                    return 1;
+                else
+                {
+                    return sayi * FaktoryelRecursive(sayi - 1);
+                }
+            }
+            long sonuclong = FaktoryelRecursive(12);
 
             //EkranaYazdir();
             // EkranaMesajYaz("deneme 123");
