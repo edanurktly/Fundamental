@@ -45,8 +45,14 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtsehir = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.dosyaİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hakkımızdaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.kaydetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -203,6 +209,38 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dosyaİşlemleriToolStripMenuItem,
+            this.hakkımızdaToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 10;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // dosyaİşlemleriToolStripMenuItem
+            // 
+            this.dosyaİşlemleriToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.kaydetToolStripMenuItem});
+            this.dosyaİşlemleriToolStripMenuItem.Name = "dosyaİşlemleriToolStripMenuItem";
+            this.dosyaİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
+            this.dosyaİşlemleriToolStripMenuItem.Text = "Dosya İşlemleri";
+            // 
+            // hakkımızdaToolStripMenuItem
+            // 
+            this.hakkımızdaToolStripMenuItem.Name = "hakkımızdaToolStripMenuItem";
+            this.hakkımızdaToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
+            this.hakkımızdaToolStripMenuItem.Text = "hakkımızda";
+            // 
+            // kaydetToolStripMenuItem
+            // 
+            this.kaydetToolStripMenuItem.Name = "kaydetToolStripMenuItem";
+            this.kaydetToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kaydetToolStripMenuItem.Text = "Kaydet";
+            this.kaydetToolStripMenuItem.Click += new System.EventHandler(this.kaydetToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -211,13 +249,19 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -240,5 +284,10 @@
         private Button button1;
         private TextBox txtDogumTarihi;
         private Label label5;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem dosyaİşlemleriToolStripMenuItem;
+        private ToolStripMenuItem hakkımızdaToolStripMenuItem;
+        private SaveFileDialog saveFileDialog1;
+        private ToolStripMenuItem kaydetToolStripMenuItem;
     }
 }
